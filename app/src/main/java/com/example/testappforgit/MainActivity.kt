@@ -113,5 +113,13 @@ fun WelcomeScreen() {
             text = "Join jam sessions, post events, and network with like-minded music lovers. " +
                     "Let’s make Dublin a hub of creativity and collaboration!"
         )
+
+        Spacer(modifier = Modifier.height(12.dp))
+
+        Text(
+            text = "added text example line 1. " +
+                    "added text example line 2"
+        )
+
     }
 }
